@@ -33,3 +33,8 @@ EXPOSE 3000
 
 # Run the application.
 CMD node src/index.js
+
+# docker init: to initialize docker in an existing project
+# docker compose up --build: to run your application using docker
+# docker compose up --build -d: run the application detached from the terminal by adding the -d option
+# docker compose down: to stop the application.
